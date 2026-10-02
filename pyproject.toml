@@ -6,4 +6,12 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "dvc[gdrive]>=3.67.1",
+    "matplotlib",
+    "pandas",
+    "scipy",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
 ]

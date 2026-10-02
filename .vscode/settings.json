@@ -1,0 +1,18 @@
+{
+  "files.exclude": {
+    "**/uv.lock": true,
+    "**/.venv": true,
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "**/.ipynb_checkpoints": true,
+    "**/.dvc/cache": true,
+    ".gitignore": true,
+    ".python-version": true,
+    "data.dvc": true,
+    "pyproject.toml": true,
+    ".dvcignore": true,
+    ".vscode": true,
+    ".dvc": true
+  }
+}
